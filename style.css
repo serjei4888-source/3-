@@ -1,84 +1,82 @@
 body {
-    background-color: rgb(255, 9, 222);
-    padding: 10px;
-    margin: 10px;
-    font-size: medium;
-    background: local;
+  background-color: rgb(255, 9, 222);
+  padding: 10px;
+  margin: 10px;
+  font-size: medium;
+  background: local;
 }
-h{
-    color: brown;
+h {
+  color: brown;
 }
-.content{
-    margin: 10px;
-    background: local;
+.content {
+  margin: 10px;
+  background: local;
 }
 .content-left {
-    float: left;
-    background-color: chartreuse;
-    margin: 10px;
-    
-    
+  float: left;
+  background-color: chartreuse;
+  margin: 10px;
 }
 
 .content-right {
-
-    flex-direction: column;
-    background-color: chocolate;
-    border-radius: 1%;
-    padding-left: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    margin-top: 10%;
-    margin-left: 50%;
-    margin-right: 10%;
-    
-    
+  flex-direction: column;
+  background-color: chocolate;
+  border-radius: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  margin-top: 10%;
+  margin-left: 50%;
+  margin-right: 10%;
 }
-img{
-    padding: 10px 50px 10px 10px;
-    margin: 1px 1px 1px 1px;
+img {
+  padding: 10px 50px 10px 10px;
+  margin: 1px 1px 1px 1px;
 }
-.header{
-    display: inline-flex;
-    float: inline-end;
-    padding-right: 10%;
+.header {
+  display: inline-flex;
+  float: inline-end;
+  padding-right: 10%;
 }
-.container{
-    color: #06ff76;
+.container {
+  color: #06ff76;
 }
-.block{
-    text-align: center;
-    width: 200px;
-    height: 200px;
+.block {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: -25%;
 }
-.container{
-    color: blue;
+.container-2 {
+  color: blue;
 }
-.block-2{
-    width: 200px;
-    height: 200px;
-    color: #0384fd;
-    line-height: 5em;
-    text-align: center;
-}
-.container-3{
-    color: #ca0ae4;
-    border: 10cm;
+.block-2 {
+  width: 200px;
+  height: 200px;
+  color: #0384fd;
+  position: fixed;
+  right: 50%;
+  bottom: 50%;
 
 }
-.block-3{
-    width:200px ;
-    height: 200px;
-    color: aquamarine;
-    display: inline-flex;
-    flex-wrap: wrap;
-    text-align: justify;
+.container-3 {
+  color: #ca0ae4;
+  border: 10cm;
 }
-.амням{
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    right: 20px;
-    bottom: 5px;
+.block-3 {
+  width: 200px;
+  height: 200px;
+  color: aquamarine;
+  bottom: 30%;
+  right: 30%;
+  position: fixed;
+}
+.omnom {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  right: 20px;
+  bottom: 5px;
 }
