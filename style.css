@@ -1,17 +1,20 @@
-body {
+ody {
   background-color: rgb(255, 9, 222);
   padding: 10px;
   margin: 10px;
   font-size: medium;
   background: local;
 }
+
 h {
   color: brown;
 }
+
 .content {
   margin: 10px;
   background: local;
 }
+
 .content-left {
   float: left;
   background-color: chartreuse;
@@ -30,18 +33,22 @@ h {
   margin-left: 50%;
   margin-right: 10%;
 }
+
 img {
   padding: 10px 50px 10px 10px;
   margin: 1px 1px 1px 1px;
 }
+
 .header {
   display: inline-flex;
   float: inline-end;
   padding-right: 10%;
 }
+
 .container {
   color: #06ff76;
 }
+
 .block {
   text-align: center;
   width: 200px;
@@ -49,9 +56,12 @@ img {
   position: fixed;
   top: -25%;
 }
+
 .container-2 {
   color: blue;
+  margin: 10px 10px 10px 10px;
 }
+
 .block-2 {
   width: 200px;
   height: 200px;
@@ -59,24 +69,32 @@ img {
   position: fixed;
   right: 50%;
   bottom: 50%;
+  flex-direction: column;
+  border: 10px solid red;
+}
+
+.container-3 {
+  position: fixed;
+  flex-direction: row;
+  margin: 10px 10px 10px 10px;
 
 }
-.container-3 {
-  color: #ca0ae4;
-  border: 10cm;
-}
+
 .block-3 {
+  background-color: #06ff76;
+  margin: 10px 10px 10px 10px;
+  display: flex;
   width: 200px;
   height: 200px;
-  color: aquamarine;
-  bottom: 30%;
-  right: 30%;
-  position: fixed;
+  border: 10px solid red;
+  flex-wrap: wrap;
+  
 }
+
 .omnom {
   position: fixed;
   width: 100px;
   height: 100px;
   right: 20px;
-  bottom: 5px;
+  bottom: 5px solid red;
 }
